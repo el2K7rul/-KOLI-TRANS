@@ -1,0 +1,65 @@
+/* policy.css - wygenerowany z policy.scss */
+.policy-container {
+  max-width: 800px;
+  margin: 40px auto 60px auto;
+  padding: 24px 16px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+.policy-container h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1.2rem;
+  color: #000533;
+}
+.policy-container h2 {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  margin-bottom: 0.7rem;
+  color: #222;
+}
+.policy-container ul {
+  margin-left: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.policy-container li {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.policy-container p {
+  font-size: 1.05rem;
+  margin-bottom: 1rem;
+}
+.policy-container a {
+  color: #000533;
+  text-decoration: underline;
+}
+@media (max-width: 900px) {
+  .policy-container {
+    max-width: 98vw;
+    padding: 18px 8px;
+  }
+  .policy-container h1 {
+    font-size: 1.5rem;
+  }
+  .policy-container h2 {
+    font-size: 1.1rem;
+  }
+}
+@media (max-width: 600px) {
+  .policy-container {
+    margin: 16px auto 32px auto;
+    padding: 10px 4px;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .policy-container h1 {
+    font-size: 1.2rem;
+  }
+  .policy-container h2 {
+    font-size: 1rem;
+  }
+  .policy-container p, .policy-container li {
+    font-size: 0.95rem;
+  }
+}
